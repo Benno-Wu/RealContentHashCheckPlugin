@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "name": "webpack-project",
+  "scripts": {
+    "build": "set debug=1 && set DisableRealContentHashCheckPlugin=0 && webpack --mode=production --config-node-env=production",
+    "build:dev": "webpack --mode=development",
+    "serve": "webpack serve",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "ajv": "latest",
+    "autoprefixer": "^10.5.0",
+    "css-loader": "^7.1.4",
+    "html-loader": "^5.1.0",
+    "html-webpack-plugin": "^5.6.7",
+    "mini-css-extract-plugin": "^2.10.2",
+    "postcss": "^8.5.13",
+    "postcss-loader": "^8.2.1",
+    "sass": "^1.99.0",
+    "sass-loader": "^16.0.7",
+    "style-loader": "^4.0.0",
+    "webpack": "^5.106.2",
+    "webpack-cli": "^7.0.2",
+    "webpack-dev-server": "^5.2.3",
+    "workbox-webpack-plugin": "^7.4.0"
+  },
+  "dependencies": {
+    "simplified-fetch": "^0.6.1",
+    "webpack-real-content-hash-check-plugin": "link:../../../AppData/Local/pnpm/global/5/node_modules/webpack-real-content-hash-check-plugin"
+  }
+}

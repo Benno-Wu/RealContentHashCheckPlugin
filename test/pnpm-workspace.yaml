@@ -1,0 +1,2 @@
+overrides:
+  webpack-real-content-hash-check-plugin: link:../../../AppData/Local/pnpm/global/5/node_modules/webpack-real-content-hash-check-plugin

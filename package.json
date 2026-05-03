@@ -1,0 +1,37 @@
+{
+  "name": "webpack-real-content-hash-check-plugin",
+  "version": "0.0.1",
+  "description": "Check whether RealContentHashPlugin changes the source code",
+  "main": "dist/index.umd.js",
+  "types": "dist/src/main.d.ts",
+  "scripts": {
+    "build": "rollup -c rollup.prod.ts --configPlugin typescript --bundleConfigAsCjs"
+  },
+  "homepage": "https://github.com/Benno-Wu/RealContentHashCheckPlugin#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Benno-Wu/RealContentHashCheckPlugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin"
+  ],
+  "author": "BennoWu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Benno-Wu/RealContentHashCheckPlugin/issues"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^12.3.0",
+    "@types/node": "^25.6.0",
+    "create-webpack-app": "^2.0.1",
+    "rollup": "^4.60.2",
+    "rollup-plugin-delete": "^3.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^6.0.3",
+    "webpack": "^5.106.2"
+  }
+}
