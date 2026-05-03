@@ -2,6 +2,9 @@
 
 Run the logic same as [RealContentHashPlugin](https://webpack.js.org/plugins/internal-plugins/#realcontenthashplugin) but early and check for any sketchy matches
 
+[![NPM version](https://img.shields.io/npm/v/webpack-real-content-hash-check-plugin?style=flat-square)](https://npmjs.org/package/webpack-real-content-hash-check-plugin)
+[![NPM downloads](https://img.shields.io/npm/dm/webpack-real-content-hash-check-plugin?style=flat-square)](https://npmjs.org/package/webpack-real-content-hash-check-plugin)
+
 ## config & example
 
 ### process.env
