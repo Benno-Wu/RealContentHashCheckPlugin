@@ -16,6 +16,9 @@
     "webpack",
     "plugin"
   ],
+  "files": [
+    "dist"
+  ],
   "author": "BennoWu",
   "license": "MIT",
   "bugs": {
